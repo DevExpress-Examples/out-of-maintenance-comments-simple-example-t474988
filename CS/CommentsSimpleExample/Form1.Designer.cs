@@ -1,4 +1,6 @@
-﻿namespace CommentsSimpleExample
+﻿using DevExpress.Portable.Input;
+
+namespace CommentsSimpleExample
 {
     partial class Form1
     {
@@ -857,7 +859,7 @@
             this.richEditControl.Name = "richEditControl";
             this.richEditControl.Options.Comments.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richEditControl.Options.Comments.HighlightCommentedRange = true;
-            this.richEditControl.Options.Hyperlinks.ModifierKeys = System.Windows.Forms.Keys.None;
+            this.richEditControl.Options.Hyperlinks.ModifierKeys = PortableKeys.None;
             this.richEditControl.Size = new System.Drawing.Size(769, 610);
             this.richEditControl.SpellChecker = this.spellChecker;
             this.spellChecker.SetSpellCheckerOptions(this.richEditControl, optionsSpelling1);
